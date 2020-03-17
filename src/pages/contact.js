@@ -1,5 +1,7 @@
 import React from "react"
 
+import Footer from "../components/footer"
+
 const ContactPage = () => {
   return (
     <div>
@@ -10,6 +12,13 @@ const ContactPage = () => {
         autem, error impedit possimus facere animi reprehenderit excepturi
         doloremque qui, eum fugiat.
       </p>
+      <p>
+        You can follow on{" "}
+        <a href="https://twitter.com/dyno_era" target="_blank">
+          Twitter
+        </a>
+      </p>
+      <Footer />
     </div>
   )
 }
