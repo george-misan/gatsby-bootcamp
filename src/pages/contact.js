@@ -1,10 +1,11 @@
 import React from "react"
-
 import Footer from "../components/footer"
+import Header from "../components/Header"
 
 const ContactPage = () => {
   return (
     <div>
+      <Header />
       <h1>This is the contact page</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde id
@@ -13,7 +14,7 @@ const ContactPage = () => {
         doloremque qui, eum fugiat.
       </p>
       <p>
-        You can follow on{" "}
+        You can follow me on
         <a href="https://twitter.com/dyno_era" target="_blank">
           Twitter
         </a>
