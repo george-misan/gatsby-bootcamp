@@ -1,11 +1,9 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/Header"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>This is the contact page</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde id
@@ -19,8 +17,7 @@ const ContactPage = () => {
           Twitter
         </a>
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
